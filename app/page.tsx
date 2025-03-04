@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Home() {
 
-  const [ result, setResults] = useState<Object>();
+  const [ result, setResults] = useState<object>();
 
   async function handleOnClick() {
     const results = await fetch('/api/scraper', {
